@@ -1,61 +1,112 @@
-# [Start Bootstrap - Small Business](https://startbootstrap.com/template-overviews/small-business/)
+# Roommate Search Application. 
 
-[Small Business](http://startbootstrap.com/template-overviews/small-business/) is a responsive marketing landing page template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
+This is a roommate search application. The application was developed in 2018 as one of my final school projects.
 
-## Preview
+## Built with
 
-[![Small Business Preview](https://startbootstrap.com/assets/img/templates/small-business.jpg)](https://blackrockdigital.github.io/startbootstrap-small-business/)
+- PHP, JavaScript, HTML and CSS, MySQL.
 
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-small-business/)**
+## Live demo
 
-## Status
+You can watch [here](#) a live demo of our project.
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-small-business/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-small-business.svg)](https://www.npmjs.com/package/startbootstrap-small-business)
-[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-small-business.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-small-business)
-[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-small-business/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-small-business)
-[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-small-business/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-small-business?type=dev)
+## Video demo
 
-## Download and Installation
+You can watch [here](#) a video demo of our project.
 
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/small-business/)
-* Install via npm: `npm i startbootstrap-small-business`
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-small-business.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-small-business)
+## Test
 
-## Usage
+To track linter errors locally follow these steps:
 
-### Basic Usage
+Download all the dependencies run:
 
-After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
+```
+npm install
+```
 
-### Advanced Usage
+Track HTML linter errors run:
 
-After installation, run `npm install` and then run `gulp dev` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
+```
+npx hint .
+```
 
-## Bugs and Issues
+Track CSS linter errors run:
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-small-business/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/small-business/).
+```
+npx stylelint "**/*.{css,scss}"
+```
 
-## Custom Builds
+Track JavaScript linter errors run:
 
-You can hire Start Bootstrap to create a custom build of any template, or create something from scratch using Bootstrap. For more information, visit the **[custom design services page](https://startbootstrap.com/bootstrap-design-services/)**.
+```
+npx eslint ."
+```
 
-## About
+## Authors
 
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
+👤 **Petro Loltolo Lesapiti**
 
-* https://startbootstrap.com
-* https://twitter.com/SBootstrap
+- GitHub: [@petrolesapiti](https://github.com/Loltolo-Lesapiti)
+- LinkedIn: [@petrolesapiti](https://www.linkedin.com/in/petrolesapitiloltolo/)
 
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
+## 🤝 Contributing
 
-* http://davidmiller.io
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
+Contributions, issues, and feature requests are welcome!
 
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+## Getting Started
+
+To get a local copy follow these simple steps:
+
+**Clone Your Github Repository**
+Follow these steps to clone your
+**Clone Your Github Repository**
+Follow these steps to clone my Github repo on Windows:
+
+1. Open Git Bash;
+
+- If Git is not already installed, it is super simple. Just go to the Git Download Folder and follow the instructions.
+
+2. Go to the current directory where you want the cloned directory to be added;
+
+- To do this, input cd and add your folder location. You can add the folder location by dragging the folder to Git bash.
+- $ cd '/c/Users/Documents/My Git Project'
+
+3. Go to the page of the repository that you want to clone.
+
+4. Click on “Clone or download” and copy the URL.
+5. Use the git clone command along with the copied URL from earlier;
+
+- $ git clone https://
+
+6. Press Enter;
+
+- $ git clone https://
+  Cloning into Git …
+  remote: Counting objects: 13, done.
+  remote: Compressing objects: 100% (13/13), done.
+  remove: Total 13 (delta 1), reused 0 (delta 1)
+  Unpacking objects: 100% (13/13), done.
+  **Congratulations, you have created your first local clone from your remote Github repository.**
+
+  ## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://.
+
+## Show your support
+
+Give a ⭐ if you like this project!
+
+## Acknowledgments
+
+## Acknowledgments
+
+- Thanks to Nelson Sakwa for original design.
+- Thanks to [Microverse](https://www.microverse.org/) for giving this opportunity to learn ...
+- Code Reviewers & Coding Partners.
+- Hat tip to anyone whose code was used.
+- Inspiration.
 
 ## Copyright and License
 
